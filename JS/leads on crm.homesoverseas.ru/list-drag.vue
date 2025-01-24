@@ -1,8 +1,10 @@
 <!--
-Страница отображения сделок в CRM 
-Демо https://crm.erikhgailis.ru/#/leads/list-drag
-Vue-js 2
+crm.homesoverseas.ru (Vue 2)
 
+Отображение страницы сделок 
+
+Display leads page in CRM
+Demo: https://crm.erikhgailis.ru/#/leads/list-drag
 -->
 
 <template>

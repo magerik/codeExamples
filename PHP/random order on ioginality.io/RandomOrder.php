@@ -1,8 +1,13 @@
 <?php
 /*
+ioginality.io (laravel)
 Скрипт выставляет случайный порядок для работ на сайте со следующими условиями:
 - работы одного автора могут идти подряд не более двух раз
 - работы из одной выставки также могут идти подряд не более двух раз
+
+The script sets a random order for works on the site with the following conditions:
+- works of one author can be published no more than twice in a row
+- works from one exhibition can also be displayed no more than twice in a row
 
 */
 

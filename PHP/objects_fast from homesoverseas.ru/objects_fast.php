@@ -1,9 +1,14 @@
 ﻿<?php
 
 /*
+homesoverseas.ru
 Данный скрипт создаёт копию таблицы 'objects' в оперативной памяти без больших текстовых полей.
-Новая быстрая 'objects_fast' таблица используется только для чтения и обновляется раз в 6 минут.
+Новая таблица 'objects_fast' используется только для чтения и обновляется раз в 6 минут.
 Этот механизм позволил существенно ускорить работу сайта.
+
+This script creates a copy of the 'objects' table in RAM without large text fields.
+The new table 'objects_fast' is read-only and is updated every 6 minutes.
+This mechanism made it possible to significantly speed up the operation of the site.
 */
 
 require('/var/www/homes/inc/settings.php');
