@@ -1,6 +1,6 @@
 /*  example https://ioginality.io/items/738cf43a-d4bc-4473-9fa3-b3afef40bbbd
 
-HTML fragment 
+HTML fragment  
 
 <button is="pay-card-tx-button" class="button button-variant--primary pay-card-button"
     data-need-license-approve="{{ $item->license ? 1 : 0 }}"
